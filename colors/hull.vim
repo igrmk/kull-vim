@@ -70,7 +70,7 @@ hi rubySymbol       ctermfg=255   ctermbg=none cterm=none
 hi vimHiTerm        ctermfg=255   ctermbg=none cterm=none
 hi vimGroupName     ctermfg=255   ctermbg=none cterm=none
 hi CurrentWordTwins ctermfg=255   ctermbg=242  cterm=none
-hi Delimiter        ctermfg=grey  ctermbg=none cterm=none
+hi Delimiter        ctermfg=252   ctermbg=none cterm=none
 hi Conceal          ctermfg=157   ctermbg=none cterm=bold
 
 hi goParamName      ctermfg=255   ctermbg=none cterm=bold,italic
