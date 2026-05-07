@@ -94,3 +94,7 @@ hi SpellBad   ctermfg=16 ctermbg=204 cterm=underline
 hi SpellCap   cterm=underline
 hi SpellRare  ctermfg=16 ctermbg=204 cterm=underline
 hi SpellLocal cterm=underline
+
+hi EasyMotionTarget        ctermbg=none ctermfg=157 cterm=bold
+hi EasyMotionTarget2First  ctermbg=none ctermfg=157 cterm=bold
+hi EasyMotionTarget2Second ctermbg=none ctermfg=157 cterm=bold
