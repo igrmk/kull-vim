@@ -90,6 +90,8 @@ hi SpellCap   ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE    guibg=NONE
 hi SpellRare  ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE    guibg=NONE guisp=NONE gui=underline
 hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE    guibg=NONE guisp=NONE gui=underline
 
+hi FlashLabel ctermbg=NONE ctermfg=108 cterm=bold guibg=NONE guifg=#87af87 gui=bold
+
 if has('gui_running') || exists('g:neovide')
     hi Normal guibg=#252525
     hi Cursor guifg=#000000 guibg=#729fcf
