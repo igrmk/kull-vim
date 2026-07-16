@@ -4,7 +4,7 @@ if exists('syntax_on')
     syntax reset
 endif
 
-let g:colors_name='kull'
+let g:colors_name='hull'
 set background=dark
 
 hi Normal           ctermfg=255   ctermbg=none cterm=none
