@@ -10,8 +10,8 @@ set background=dark
 hi Normal           ctermfg=255   ctermbg=NONE cterm=NONE        guifg=#eeeeee guibg=NONE    gui=NONE
 
 hi Cursor           ctermfg=235   ctermbg=NONE cterm=NONE        guifg=#262626 guibg=NONE    gui=NONE
-hi IncSearch        ctermfg=235   ctermbg=255  cterm=NONE        guifg=#262626 guibg=#eeeeee gui=NONE
-hi Search           ctermfg=235   ctermbg=187  cterm=NONE        guifg=#262626 guibg=#d7d7af gui=NONE
+hi IncSearch        ctermfg=157   ctermbg=NONE cterm=bold        guifg=#afffaf guibg=NONE    gui=bold
+hi Search           ctermfg=110   ctermbg=NONE cterm=bold        guifg=#87afd7 guibg=NONE    gui=bold
 hi Visual           ctermfg=110   ctermbg=235  cterm=reverse     guifg=#87afd7 guibg=#262626 gui=reverse
 hi VisualNOS        ctermfg=231   ctermbg=NONE cterm=reverse     guifg=#ffffff guibg=NONE    gui=reverse
 
@@ -90,11 +90,15 @@ hi SpellCap   ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE    guibg=NONE
 hi SpellRare  ctermfg=16   ctermbg=204  cterm=underline guifg=#000000 guibg=#ff5f87 guisp=NONE gui=underline
 hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE    guibg=NONE    guisp=NONE gui=underline
 
-hi EasyMotionTarget        ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
-hi EasyMotionTarget2First  ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
-hi EasyMotionTarget2Second ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
+hi EasyMotionTarget        ctermbg=157  ctermfg=235 cterm=bold guibg=#afffaf guifg=#262626 gui=bold
+hi EasyMotionTarget2First  ctermbg=157  ctermfg=235 cterm=bold guibg=#afffaf guifg=#262626 gui=bold
+hi EasyMotionTarget2Second ctermbg=157  ctermfg=235 cterm=bold guibg=#afffaf guifg=#262626 gui=bold
+hi EasyMotionShade         ctermbg=NONE ctermfg=246 cterm=NONE guibg=NONE    guifg=#949494 gui=NONE
+hi EasyMotionIncSearch     ctermbg=NONE ctermfg=110 cterm=bold guibg=NONE    guifg=#87afd7 gui=bold
+hi EasyMotionMoveHL        ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE    guifg=#afffaf gui=bold
 
-hi FlashLabel              ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
+hi FlashLabel              ctermbg=157  ctermfg=235 cterm=bold guibg=#afffaf guifg=#262626 gui=bold
+hi FlashBackdrop           ctermbg=NONE ctermfg=246 cterm=NONE guibg=NONE    guifg=#949494 gui=NONE
 
 if has('gui_running') || exists('g:neovide')
     hi Normal guibg=#3b3c3e
