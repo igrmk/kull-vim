@@ -94,6 +94,8 @@ hi EasyMotionTarget        ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=
 hi EasyMotionTarget2First  ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
 hi EasyMotionTarget2Second ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
 
+hi FlashLabel              ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE guifg=#afffaf gui=bold
+
 if has('gui_running') || exists('g:neovide')
     hi Normal guibg=#3b3c3e
     hi Cursor guifg=#000000 guibg=#ffffff
