@@ -24,6 +24,9 @@ NeoBundle 'igrmk/kull-vim'
 " Vundle
 Plugin 'igrmk/kull-vim'
 
+" 24-bit color in the terminal
+set termguicolors
+
 " kull
 colorscheme kull
 " hull
