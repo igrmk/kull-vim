@@ -100,6 +100,12 @@ hi EasyMotionMoveHL        ctermbg=NONE ctermfg=108 cterm=bold guibg=NONE    gui
 hi FlashLabel              ctermbg=108  ctermfg=235 cterm=bold guibg=#87af87 guifg=#262626 gui=bold
 hi FlashBackdrop           ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE    guifg=#6c6c6c gui=NONE
 
+if has('nvim')
+    " treesitter captures constant names as @constant -> Constant (green);
+    " keep green for literals only, like regex syntax highlighting does
+    hi! link @constant Identifier
+endif
+
 if has('gui_running') || exists('g:neovide')
     hi Normal guibg=#252525
     hi Cursor guifg=#000000 guibg=#729fcf
