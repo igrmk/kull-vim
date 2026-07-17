@@ -10,8 +10,9 @@ set background=dark
 hi Normal           ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 
 hi Cursor           ctermfg=white ctermbg=NONE cterm=NONE        guifg=#eeeeec guibg=NONE    gui=NONE
-hi IncSearch        ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
-hi Search           ctermfg=110   ctermbg=NONE cterm=bold        guifg=#87afd7 guibg=NONE    gui=bold
+hi IncSearch        ctermfg=235   ctermbg=187  cterm=NONE        guifg=#262626 guibg=#d7d7af gui=NONE
+hi Search           ctermfg=235   ctermbg=187  cterm=NONE        guifg=#262626 guibg=#d7d7af gui=NONE
+hi! link CurSearch IncSearch
 hi Visual           ctermfg=110   ctermbg=235  cterm=reverse     guifg=#87afd7 guibg=#262626 gui=reverse
 hi VisualNOS        ctermfg=white ctermbg=NONE cterm=reverse     guifg=#eeeeec guibg=NONE    gui=reverse
 
@@ -99,6 +100,8 @@ hi EasyMotionMoveHL        ctermbg=NONE ctermfg=108 cterm=bold guibg=NONE    gui
 
 hi FlashLabel              ctermbg=108  ctermfg=235 cterm=bold guibg=#87af87 guifg=#262626 gui=bold
 hi FlashBackdrop           ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE    guifg=#6c6c6c gui=NONE
+hi FlashMatch              ctermbg=NONE ctermfg=110 cterm=bold guibg=NONE    guifg=#87afd7 gui=bold
+hi FlashCurrent            ctermbg=NONE ctermfg=108 cterm=bold guibg=NONE    guifg=#87af87 gui=bold
 
 if has('nvim')
     " treesitter captures constant names as @constant -> Constant (green);
