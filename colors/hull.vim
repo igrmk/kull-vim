@@ -106,6 +106,7 @@ hi FlashCurrent            ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE    gui
 if has('nvim')
     hi! link @constant Identifier
     hi! link @variable Identifier
+    hi! link @lsp.type.namespace NONE
 endif
 
 if has('gui_running') || exists('g:neovide')
