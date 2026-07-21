@@ -104,9 +104,8 @@ hi FlashMatch              ctermbg=NONE ctermfg=110 cterm=bold guibg=NONE    gui
 hi FlashCurrent            ctermbg=NONE ctermfg=108 cterm=bold guibg=NONE    guifg=#87af87 gui=bold
 
 if has('nvim')
-    " treesitter captures constant names as @constant -> Constant (green);
-    " keep green for literals only, like regex syntax highlighting does
     hi! link @constant Identifier
+    hi! link @variable Identifier
 endif
 
 if has('gui_running') || exists('g:neovide')
