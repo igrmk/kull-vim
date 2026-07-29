@@ -27,8 +27,29 @@ hi DiffText              ctermfg=16    ctermbg=181  cterm=bold,nocombine guifg=#
 hi DiffTextAdd           ctermfg=16    ctermbg=108  cterm=bold,nocombine guifg=#000000 guibg=#90c08e gui=bold,nocombine
 hi DiffviewDiffDeleteDim ctermfg=240   ctermbg=NONE cterm=NONE           guifg=#545557 guibg=NONE    gui=NONE
 
+hi Added                 ctermfg=108   ctermbg=NONE cterm=NONE           guifg=#90c08e guibg=NONE    gui=NONE
+hi Removed               ctermfg=181   ctermbg=NONE cterm=NONE           guifg=#d6a29f guibg=NONE    gui=NONE
+hi Changed               ctermfg=110   ctermbg=NONE cterm=NONE           guifg=#87afd7 guibg=NONE    gui=NONE
+
+hi gitKeyword            ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+hi gitIdentityKeyword    ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+hi gitHash               ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi gitDate               ctermfg=252   ctermbg=NONE cterm=NONE           guifg=#d0d0d0 guibg=NONE    gui=NONE
+hi gitIdentity           ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
+hi gitEmail              ctermfg=252   ctermbg=NONE cterm=NONE           guifg=#d0d0d0 guibg=NONE    gui=NONE
+hi gitReference          ctermfg=110   ctermbg=NONE cterm=NONE           guifg=#87afd7 guibg=NONE    gui=NONE
+hi gitLogRefs            ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+hi gitLogHead            ctermfg=231   ctermbg=NONE cterm=bold           guifg=#ffffff guibg=NONE    gui=bold
+hi gitLogBranch          ctermfg=110   ctermbg=NONE cterm=bold           guifg=#87afd7 guibg=NONE    gui=bold
+hi gitLogRemote          ctermfg=110   ctermbg=NONE cterm=NONE           guifg=#87afd7 guibg=NONE    gui=NONE
+hi gitLogTag             ctermfg=157   ctermbg=NONE cterm=NONE           guifg=#afffaf guibg=NONE    gui=NONE
+hi diffFile              ctermfg=231   ctermbg=NONE cterm=bold           guifg=#ffffff guibg=NONE    gui=bold
+hi diffLine              ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+hi diffIndexLine         ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+hi diffSubname           ctermfg=246   ctermbg=NONE cterm=NONE           guifg=#949494 guibg=NONE    gui=NONE
+
 hi CursorColumn          ctermfg=231   ctermbg=NONE cterm=NONE           guifg=#ffffff guibg=NONE    gui=NONE
-hi CursorLine            ctermfg=231   ctermbg=NONE cterm=NONE           guifg=#ffffff guibg=NONE    gui=NONE
+hi CursorLine            ctermfg=235   ctermbg=187  cterm=NONE           guifg=#262626 guibg=#d7d7af gui=NONE
 hi CursorLineNr          ctermfg=231   ctermbg=NONE cterm=NONE           guifg=#ffffff guibg=NONE    gui=NONE
 
 hi Comment               ctermfg=252   ctermbg=NONE cterm=italic         guifg=#d0d0d0 guibg=NONE    gui=italic
@@ -110,6 +131,15 @@ if has('nvim')
     hi! link @constant Identifier
     hi! link @variable Identifier
     hi! link @lsp.type.namespace NONE
+    hi DiffviewReference           ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
+    hi DiffviewFilePanelPath       ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
+    hi DiffviewFilePanelInsertions ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
+    hi DiffviewFilePanelDeletions  ctermfg=217 ctermbg=NONE cterm=NONE guifg=#ffafaf guibg=NONE gui=NONE
+    hi DiffviewStatusAdded         ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
+    hi DiffviewStatusUntracked     ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
+    hi DiffviewStatusDeleted       ctermfg=217 ctermbg=NONE cterm=NONE guifg=#ffafaf guibg=NONE gui=NONE
+    hi DiffviewStatusUnknown       ctermfg=217 ctermbg=NONE cterm=NONE guifg=#ffafaf guibg=NONE gui=NONE
+    hi DiffviewStatusBroken        ctermfg=217 ctermbg=NONE cterm=NONE guifg=#ffafaf guibg=NONE gui=NONE
 endif
 
 if has('gui_running') || exists('g:neovide')
