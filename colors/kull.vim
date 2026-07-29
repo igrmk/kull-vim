@@ -22,7 +22,7 @@ hi Number           ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 g
 hi String           ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
 
 hi CursorColumn     ctermfg=white ctermbg=NONE cterm=NONE        guifg=#eeeeec guibg=NONE    gui=NONE
-hi CursorLine       ctermfg=white ctermbg=NONE cterm=NONE        guifg=#eeeeec guibg=NONE    gui=NONE
+hi CursorLine       ctermfg=235   ctermbg=187  cterm=NONE        guifg=#262626 guibg=#d7d7af gui=NONE
 hi CursorLineNr     ctermfg=white ctermbg=NONE cterm=NONE        guifg=#eeeeec guibg=NONE    gui=NONE
 
 hi Comment          ctermfg=243   ctermbg=NONE cterm=italic      guifg=#767676 guibg=NONE    gui=italic
@@ -47,6 +47,7 @@ hi PmenuSbar        ctermfg=248   ctermbg=131  cterm=NONE        guifg=#a8a8a8 g
 hi PmenuSel         ctermfg=235   ctermbg=108  cterm=bold        guifg=#262626 guibg=#87af87 gui=bold
 hi PmenuThumb       ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 hi PreProc          ctermfg=248   ctermbg=NONE cterm=bold        guifg=#a8a8a8 guibg=NONE    gui=bold
+hi QuickFixLine     ctermfg=235   ctermbg=187  cterm=bold        guifg=#262626 guibg=#d7d7af gui=bold
 hi Special          ctermfg=248   ctermbg=NONE cterm=bold,italic guifg=#a8a8a8 guibg=NONE    gui=bold,italic
 hi SpecialKey       ctermfg=238   ctermbg=NONE cterm=NONE        guifg=#444444 guibg=NONE    gui=NONE
 hi Statement        ctermfg=248   ctermbg=NONE cterm=bold        guifg=#a8a8a8 guibg=NONE    gui=bold

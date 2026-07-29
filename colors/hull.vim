@@ -71,6 +71,7 @@ hi PmenuSbar             ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#
 hi PmenuSel              ctermfg=255   ctermbg=NONE cterm=bold           guifg=#eeeeee guibg=NONE    gui=bold
 hi PmenuThumb            ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
 hi PreProc               ctermfg=255   ctermbg=NONE cterm=bold           guifg=#eeeeee guibg=NONE    gui=bold
+hi QuickFixLine          ctermfg=235   ctermbg=187  cterm=bold           guifg=#262626 guibg=#d7d7af gui=bold
 hi Special               ctermfg=255   ctermbg=NONE cterm=bold,italic    guifg=#eeeeee guibg=NONE    gui=bold,italic
 hi SpecialKey            ctermfg=241   ctermbg=NONE cterm=NONE           guifg=#626262 guibg=NONE    gui=NONE
 hi Statement             ctermfg=231   ctermbg=NONE cterm=bold           guifg=#ffffff guibg=NONE    gui=bold
