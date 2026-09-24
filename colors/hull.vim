@@ -132,6 +132,19 @@ if has('nvim')
     hi! link @constant Identifier
     hi! link @variable Identifier
     hi! link @lsp.type.namespace NONE
+    hi @markup.heading                          ctermfg=231  ctermbg=NONE cterm=bold       guifg=#ffffff guibg=NONE gui=bold
+    hi @markup.raw                              ctermfg=157  ctermbg=NONE cterm=bold       guifg=#afffaf guibg=NONE gui=bold
+    hi @markup.raw.block                        ctermfg=NONE ctermbg=NONE cterm=NONE       guifg=NONE    guibg=NONE gui=NONE
+    hi @markup.link                             ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
+    hi @markup.link.label                       ctermfg=110  ctermbg=NONE cterm=NONE       guifg=#87afd7 guibg=NONE gui=NONE
+    hi @markup.link.url                         ctermfg=246  ctermbg=NONE cterm=underline  guifg=#949494 guibg=NONE gui=underline
+    hi @markup.list                             ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
+    hi @markup.list.checked                     ctermfg=157  ctermbg=NONE cterm=NONE       guifg=#afffaf guibg=NONE gui=NONE
+    hi! link @markup.quote                      Comment
+    hi @punctuation.special.markdown            ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
+    hi! link @string.escape.markdown            @punctuation.special.markdown
+    hi! link @string.escape.markdown_inline     @punctuation.special.markdown
+    hi! link @character.special.markdown_inline @punctuation.special.markdown
     hi DiffviewReference           ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
     hi DiffviewFilePanelPath       ctermfg=255 ctermbg=NONE cterm=NONE guifg=#eeeeee guibg=NONE gui=NONE
     hi DiffviewFilePanelInsertions ctermfg=157 ctermbg=NONE cterm=NONE guifg=#afffaf guibg=NONE gui=NONE
