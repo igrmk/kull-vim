@@ -138,7 +138,7 @@ if has('nvim')
     hi @markup.link                             ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
     hi @markup.link.label                       ctermfg=110  ctermbg=NONE cterm=NONE       guifg=#87afd7 guibg=NONE gui=NONE
     hi @markup.link.url                         ctermfg=246  ctermbg=NONE cterm=underline  guifg=#949494 guibg=NONE gui=underline
-    hi @markup.list                             ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
+    hi @markup.list                             ctermfg=255  ctermbg=NONE cterm=NONE       guifg=#eeeeee guibg=NONE gui=NONE
     hi @markup.list.checked                     ctermfg=157  ctermbg=NONE cterm=NONE       guifg=#afffaf guibg=NONE gui=NONE
     hi! link @markup.quote                      Comment
     hi @punctuation.special.markdown            ctermfg=243  ctermbg=NONE cterm=NONE       guifg=#767676 guibg=NONE gui=NONE
