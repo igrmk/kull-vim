@@ -128,6 +128,9 @@ hi FlashBackdrop           ctermbg=NONE ctermfg=246 cterm=NONE guibg=NONE    gui
 hi FlashMatch              ctermbg=NONE ctermfg=110 cterm=bold guibg=NONE    guifg=#87afd7 gui=bold
 hi FlashCurrent            ctermbg=NONE ctermfg=157 cterm=bold guibg=NONE    guifg=#afffaf gui=bold
 
+hi LazyButton              ctermbg=239  ctermfg=255 cterm=NONE guibg=#4e4e4e guifg=#eeeeee gui=NONE
+hi LazyButtonActive        ctermbg=239  ctermfg=255 cterm=bold guibg=#4e4e4e guifg=#eeeeee gui=bold
+
 if has('nvim')
     hi! link @constant Identifier
     hi! link @variable Identifier
