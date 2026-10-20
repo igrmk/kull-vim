@@ -90,7 +90,6 @@ hi Underlined            ctermfg=255   ctermbg=NONE cterm=underline      guifg=#
 hi VertSplit             ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
 hi WarningMsg            ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
 hi WildMenu              ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
-hi cucumberTags          ctermfg=255   ctermbg=NONE cterm=bold           guifg=#eeeeee guibg=NONE    gui=bold
 hi htmlTagN              ctermfg=255   ctermbg=NONE cterm=bold           guifg=#eeeeee guibg=NONE    gui=bold
 hi rubySymbol            ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
 hi vimHiTerm             ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE
@@ -98,6 +97,18 @@ hi vimGroupName          ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#
 hi CurrentWordTwins      ctermfg=255   ctermbg=242  cterm=NONE           guifg=#eeeeee guibg=#6c6c6c gui=NONE
 hi Delimiter             ctermfg=252   ctermbg=NONE cterm=NONE           guifg=#d0d0d0 guibg=NONE    gui=NONE
 hi Conceal               ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+
+hi cucumberTags            ctermfg=255   ctermbg=NONE cterm=bold           guifg=#eeeeee guibg=NONE    gui=bold
+hi cucumberFeature         ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberRule            ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberBackground      ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberScenario        ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberScenarioOutline ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberExamples        ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberGiven           ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberWhen            ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberThen            ctermfg=157   ctermbg=NONE cterm=bold           guifg=#afffaf guibg=NONE    gui=bold
+hi cucumberDelimiter       ctermfg=243   ctermbg=NONE cterm=NONE           guifg=#767676 guibg=NONE    gui=NONE
 
 hi goParamName           ctermfg=255   ctermbg=NONE cterm=bold,italic    guifg=#eeeeee guibg=NONE    gui=bold,italic
 hi goParamType           ctermfg=255   ctermbg=NONE cterm=NONE           guifg=#eeeeee guibg=NONE    gui=NONE

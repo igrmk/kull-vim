@@ -66,7 +66,6 @@ hi Underlined       ctermfg=248   ctermbg=NONE cterm=underline   guifg=#a8a8a8 g
 hi VertSplit        ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 hi WarningMsg       ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 hi WildMenu         ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
-hi cucumberTags     ctermfg=248   ctermbg=NONE cterm=bold        guifg=#a8a8a8 guibg=NONE    gui=bold
 hi htmlTagN         ctermfg=248   ctermbg=NONE cterm=bold        guifg=#a8a8a8 guibg=NONE    gui=bold
 hi rubySymbol       ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 hi vimHiTerm        ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
@@ -74,6 +73,18 @@ hi vimGroupName     ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 g
 hi CurrentWordTwins ctermfg=248   ctermbg=240  cterm=NONE        guifg=#a8a8a8 guibg=#585858 gui=NONE
 hi Delimiter        ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
 hi Conceal          ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+
+hi cucumberTags            ctermfg=248   ctermbg=NONE cterm=bold        guifg=#a8a8a8 guibg=NONE    gui=bold
+hi cucumberFeature         ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberRule            ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberBackground      ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberScenario        ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberScenarioOutline ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberExamples        ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberGiven           ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberWhen            ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberThen            ctermfg=108   ctermbg=NONE cterm=bold        guifg=#87af87 guibg=NONE    gui=bold
+hi cucumberDelimiter       ctermfg=240   ctermbg=NONE cterm=NONE        guifg=#585858 guibg=NONE    gui=NONE
 
 hi goParamName      ctermfg=248   ctermbg=NONE cterm=bold,italic guifg=#a8a8a8 guibg=NONE    gui=bold,italic
 hi goParamType      ctermfg=248   ctermbg=NONE cterm=NONE        guifg=#a8a8a8 guibg=NONE    gui=NONE
